@@ -4,9 +4,25 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>학생 정보 관리</title>
 </head>
 <body>
 
+
+	<h3> 학생 정보 등록</h3>
+	
+	<form action="/student/register" method ="post">
+		이름<input type="text" name = "name"><br>
+		1차 점수 <input type ="text" name= "firstScore"><br>
+		2차 점수<input type="text" name="secondScore"><br>
+		<input type="submit" value="등록">
+		
+	
+	
+	
+	</form>
+	
+	<h3>학생 정보삭제 </h3>
+	
 </body>
 </html>
